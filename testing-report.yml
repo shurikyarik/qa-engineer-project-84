@@ -14,3 +14,11 @@
 - summary: |
     Просмотр информации о товаре
   status: pass
+
+- summary: |
+    Очищение корзины
+  status: pass
+
+- summary: |
+    Смена языка
+  status: fail
