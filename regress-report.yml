@@ -45,7 +45,7 @@ test-cases:
     actual-result: |
       Выдаётся список товаров
 
-    - summary: |
+  - summary: |
       Исчезла часть товаров
     environment: |
       Google Chrome 131.0.6778.86 (Официальная сборка), (x86_64)
