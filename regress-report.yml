@@ -8,7 +8,7 @@ test-cases:
       Поиск товаров по категории
     status: pass
 
-   - summary: |
+  - summary: |
       Поиск товаров с использованием фильтров
     status: pass
 
@@ -16,7 +16,7 @@ test-cases:
       Просмотр информации о товаре
     status: pass
 
-   - summary: |
+  - summary: |
       Очищение корзины
     status: pass
 
