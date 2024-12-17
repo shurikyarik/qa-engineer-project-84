@@ -32,7 +32,7 @@ test-cases:
       Смена языка
     status: fail
 
-    bugreports:
+  bugreports:
   - summary: |
       Ввод символов в поле поиска товаров по названию
     environment: |
