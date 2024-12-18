@@ -40,15 +40,4 @@ test-cases:
       Проверка очищения корзины после оформления заказа
     status: fail
 
-bugreports:
-  - summary: |
-      Исчезла часть товаров
-    environment: |
-      Google Chrome 131.0.6778.86 (Официальная сборка), (x86_64)
-      macOS Sequoia 15.1.1
-    steps-to-reproduce: |
-      - Нажимаем кнопку "Next"
-    expected-result: |
-      Есть возможность ещё несколько раз нажимать кнопку "Next", чтобы увидеть весь спиок товаров
-    actual-result: |
-      Остаётся только кнопка "Previous", часть товаров исчезла
+bugreports: []
