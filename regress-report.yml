@@ -30,18 +30,6 @@ test-cases:
 
 bugreports:
   - summary: |
-      Ввод символов в поле поиска товаров по названию
-    environment: |
-      Google Chrome 131.0.6778.86 (Официальная сборка), (x86_64)
-      macOS Sequoia 15.1.1
-    steps-to-reproduce: |
-      - Вводим в поле поиска товаров по названию "+"
-    expected-result: |
-      Список товаров пуст, выводится сообщение "Nothing found!"
-    actual-result: |
-      Выдаётся список товаров
-
-  - summary: |
       Исчезла часть товаров
     environment: |
       Google Chrome 131.0.6778.86 (Официальная сборка), (x86_64)
