@@ -26,3 +26,7 @@
 - summary: |
     Смена языка
   status: fail
+
+- summary: |
+    Проверка мобильной версии
+  status: fail
