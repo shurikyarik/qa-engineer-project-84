@@ -28,6 +28,10 @@ test-cases:
       Смена языка
     status: fail
 
+  - summary: |
+      Проверка мобильной версии
+    status: fail
+
 bugreports:
   - summary: |
       Исчезла часть товаров
