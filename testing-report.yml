@@ -24,9 +24,5 @@
   status: pass
 
 - summary: |
-    Ввод символов в поле поиска товаров по названию
-  status: pass
-
-- summary: |
     Смена языка
   status: fail
