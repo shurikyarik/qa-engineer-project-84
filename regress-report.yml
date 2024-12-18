@@ -32,6 +32,10 @@ test-cases:
       Проверка мобильной версии
     status: fail
 
+  - summary: |
+      Проверка кнопки "Крестик" в диалоге оформленного заказа
+    status: fail
+
 bugreports:
   - summary: |
       Исчезла часть товаров
