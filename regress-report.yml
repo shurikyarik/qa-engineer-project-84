@@ -40,4 +40,16 @@ test-cases:
       Проверка очищения корзины после оформления заказа
     status: fail
 
-bugreports: []
+bugreports:
+  - summary: |
+      Присутствует артефакт на странице каталога товаров  
+    environment: |
+      Google Chrome 131.0.6778.86 (Официальная сборка), (x86_64)
+      macOS Sequoia 15.1.1
+    steps-to-reproduce: |
+      1. Открыть каталог товаров
+    expected-result: |
+      На сайте нет ничего лишнего
+    actual-result: |
+      Присутствует артефакт
+      Ошибка изображена на скриншоте bug4.png
